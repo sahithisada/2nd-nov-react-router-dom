@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffc0cb;
+}
+
+nav {
+  background-color: #ffc0cb; 
+  color: #000000; 
+  padding: 10px;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+form {
+  display: inline-block;
+  background-color: #ffc0cb; 
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #000; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+form div {
+  margin: 20px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+  color: #000; 
+  font-size: 1.1rem;
+}
+
+body {
+  margin: 0;
+  background-color: #ffc0cb; 
+  color: #000000;
+}
+
+
+input,
+button {
+  border: 2px solid #000; 
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffc0cb; 
+  color: #000; 
+}
+
+input:hover,
+button:hover {
+  background-color: #ffd6e7; 
+  cursor: pointer;
+} 
